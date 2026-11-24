@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": "2026-11-23",
+  "_note": "Thresholds and fees change. The coding AI must re-check every number against the official page in 'source' before release.",
+  "rightToWorkByNationality": {
+    "_comment": "ISO 3166 alpha-2 nationality -> countries where that passport already allows work. Users can also declare a visa/PR they hold.",
+    "EU_EEA_CH": [
+      "DE",
+      "NL",
+      "PL",
+      "IE"
+    ],
+    "GB": [
+      "GB",
+      "IE"
+    ],
+    "IE": [
+      "IE",
+      "GB",
+      "DE",
+      "NL",
+      "PL"
+    ],
+    "US": [
+      "US"
+    ],
+    "CA": [
+      "CA"
+    ],
+    "AU": [
+      "AU"
+    ],
+    "NZ": [
+      "AU"
+    ],
+    "SG": [
+      "SG"
+    ]
+  },
+  "euEeaChNationalities": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "IS",
+    "LI",
+    "NO",
+    "CH"
+  ],
+  "countries": {
+    "GB": {
+      "route": "Skilled Worker visa",
+      "sponsorLicenceRequired": true,
+      "register": "uk_register",
+      "minSalary": {
+        "amount": 41700,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "source": "https://www.gov.uk/skilled-worker-visa"
+    },
+    "IE": {
+      "route": "Critical Skills Employment Permit",
+      "sponsorLicenceRequired": false,
+      "register": "ie_permit_stats",
+      "minSalary": {
+        "amount": 40904,
+        "currency": "EUR",
+        "period": "year"
+      },
+      "source": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/"
+    },
+    "DE": {
+      "route": "EU Blue Card",
+      "sponsorLicenceRequired": false,
+      "register": null,
+      "minSalary": null,
+      "source": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
+    },
+    "NL": {
+      "route": "Highly skilled migrant",
+      "sponsorLicenceRequired": true,
+      "register": "nl_ind_register",
+      "minSalary": null,
+      "source": "https://ind.nl/en/public-register-recognised-sponsors"
+    },
+    "PL": {
+      "route": "Work permit / EU Blue Card",
+      "sponsorLicenceRequired": false,
+      "register": null,
+      "minSalary": null,
+      "source": "https://www.gov.pl/web/udsc-en"
+    },
+    "SG": {
+      "route": "Employment Pass (COMPASS)",
+      "sponsorLicenceRequired": false,
+      "register": null,
+      "minSalary": null,
+      "source": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+    },
+    "CA": {
+      "route": "Work permit (Global Talent Stream / LMIA)",
+      "sponsorLicenceRequired": false,
+      "register": null,
+      "minSalary": null,
+      "source": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent.html"
+    },
+    "AU": {
+      "route": "Skills in Demand visa (subclass 482)",
+      "sponsorLicenceRequired": true,
+      "register": null,
+      "minSalary": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-482"
+    },
+    "US": {
+      "route": "H-1B (annual lottery)",
+      "sponsorLicenceRequired": false,
+      "register": "us_h1b_hub",
+      "minSalary": null,
+      "defaultVisibleForVisaNeeders": false,
+      "warning": "H-1B needs the March lottery and the $100,000 fee for applicants abroad is in court. Off by default; most people from India reach the US through an internal L-1 transfer.",
+      "source": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations"
+    }
+  },
+  "jobTextRules": {
+    "_comment": "Case-insensitive. A NEGATIVE match hides the job from anyone who needs a visa for that country, even at a sponsoring company.",
+    "negative": [
+      "no visa sponsorship",
+      "not able to sponsor",
+      "unable to sponsor",
+      "cannot sponsor",
+      "can't sponsor",
+      "do not sponsor",
+      "does not sponsor",
+      "will not sponsor",
+      "won't sponsor",
+      "not offer visa sponsorship",
+      "not provide sponsorship",
+      "sponsorship is not available",
+      "sponsorship not available",
+      "without the need for sponsorship",
+      "without sponsorship",
+      "must have the right to work",
+      "must already have the right to work",
+      "must be authorized to work",
+      "must be authorised to work",
+      "must be eligible to work in",
+      "existing right to work",
+      "no relocation",
+      "eu citizenship required",
+      "eu passport required",
+      "us citizen",
+      "u.s. citizen",
+      "security clearance",
+      "green card holders only"
+    ],
+    "positive": [
+      "visa sponsorship",
+      "sponsor your visa",
+      "relocation support",
+      "relocation package",
+      "relocation assistance",
+      "we sponsor",
+      "blue card",
+      "skilled worker visa",
+      "help with your visa",
+      "immigration support"
+    ]
+  }
+}

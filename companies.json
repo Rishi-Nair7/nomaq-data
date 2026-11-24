@@ -1,0 +1,2271 @@
+{
+  "schemaVersion": 1,
+  "listVersion": "2026-11-23",
+  "countries": [
+    "DE",
+    "GB",
+    "IE",
+    "US",
+    "CA",
+    "SG",
+    "NL",
+    "AU",
+    "PL"
+  ],
+  "evidenceCodes": {
+    "gist": "Listed in a public list of international companies offering visa/relocation support",
+    "known": "Widely reported hiring of non-local engineers (employee stories, forums, job posts)",
+    "offer": "A person from India publicly reported a relocation offer",
+    "uk_register": "Found in the UK Home Office Register of Licensed Sponsors",
+    "nl_ind_register": "Found in the IND Public Register of recognised sponsors",
+    "ie_permit_stats": "Found in Ireland's 'Permits issued to companies' statistics",
+    "us_h1b_hub": "Found in the USCIS H-1B Employer Data Hub"
+  },
+  "companies": [
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "domain": "stripe.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "stripe",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Stripe Payments UK"
+        ]
+      },
+      "note": "Dublin is Stripe's largest engineering hub outside the US."
+    },
+    {
+      "id": "datadog",
+      "name": "Datadog",
+      "domain": "datadoghq.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "datadog",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Datadog"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "domain": "cloudflare.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "cloudflare",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Cloudflare"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "domain": "figma.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "figma",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Figma"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "domain": "databricks.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "databricks",
+      "tokenVerified": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Databricks"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "domain": "pinterest.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "pinterest",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Pinterest"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "domain": "reddit.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "reddit",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Reddit"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "domain": "mongodb.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "mongodb",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "MongoDB"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "domain": "anthropic.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "anthropic",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Anthropic"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "domain": "intercom.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "intercom",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Intercom"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "domain": "squarespace.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "squarespace",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "toast",
+      "name": "Toast",
+      "domain": "toasttab.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "toast",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "domain": "udemy.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "udemy",
+      "tokenVerified": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "personio",
+      "name": "Personio",
+      "domain": "personio.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "personio",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Token uncertain: Personio may host jobs on its own product."
+    },
+    {
+      "id": "monzo",
+      "name": "Monzo",
+      "domain": "monzo.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "monzo",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Monzo Bank"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "wise",
+      "name": "Wise",
+      "domain": "wise.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "wise",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Wise Payments"
+        ]
+      },
+      "note": "Token uncertain (older board name may be 'transferwise')."
+    },
+    {
+      "id": "deliveroo",
+      "name": "Deliveroo",
+      "domain": "deliveroo.co.uk",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "deliveroo",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Roofoods"
+        ]
+      },
+      "note": "UK legal entity is Roofoods Ltd."
+    },
+    {
+      "id": "gocardless",
+      "name": "GoCardless",
+      "domain": "gocardless.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "gocardless",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "GoCardless"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "skyscanner",
+      "name": "Skyscanner",
+      "domain": "skyscanner.net",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "skyscanner",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist",
+            "offer"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Skyscanner"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "checkout",
+      "name": "Checkout.com",
+      "domain": "checkout.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "checkoutcom",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Checkout Ltd"
+        ]
+      },
+      "note": "Token uncertain."
+    },
+    {
+      "id": "thoughtmachine",
+      "name": "Thought Machine",
+      "domain": "thoughtmachine.net",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "thoughtmachine",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Thought Machine"
+        ]
+      },
+      "note": "Token uncertain."
+    },
+    {
+      "id": "adyen",
+      "name": "Adyen",
+      "domain": "adyen.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "adyen",
+      "tokenVerified": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Adyen"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "domain": "miro.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "realtimeboardglobal",
+      "tokenVerified": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Miro's board token is its old company name."
+    },
+    {
+      "id": "mollie",
+      "name": "Mollie",
+      "domain": "mollie.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "mollie",
+      "tokenVerified": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Token uncertain."
+    },
+    {
+      "id": "tiqets",
+      "name": "Tiqets",
+      "domain": "tiqets.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "tiqets",
+      "tokenVerified": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Token uncertain."
+    },
+    {
+      "id": "n26",
+      "name": "N26",
+      "domain": "n26.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "n26",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "getyourguide",
+      "name": "GetYourGuide",
+      "domain": "getyourguide.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "getyourguide",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "hellofresh",
+      "name": "HelloFresh",
+      "domain": "hellofresh.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "hellofresh",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "contentful",
+      "name": "Contentful",
+      "domain": "contentful.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "contentful",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Contentful"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "sumup",
+      "name": "SumUp",
+      "domain": "sumup.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "sumup",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "SumUp"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "babbel",
+      "name": "Babbel",
+      "domain": "babbel.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "babbel",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "celonis",
+      "name": "Celonis",
+      "domain": "celonis.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "celonis",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "traderepublic",
+      "name": "Trade Republic",
+      "domain": "traderepublic.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "traderepublicbank",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Token uncertain."
+    },
+    {
+      "id": "taxfix",
+      "name": "Taxfix",
+      "domain": "taxfix.de",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "taxfix",
+      "tokenVerified": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Token uncertain."
+    },
+    {
+      "id": "instacart",
+      "name": "Instacart",
+      "domain": "instacart.com",
+      "listType": "feed",
+      "ats": "greenhouse",
+      "token": "instacart",
+      "tokenVerified": false,
+      "sponsorship": {
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": ""
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "domain": "palantir.com",
+      "listType": "feed",
+      "ats": "lever",
+      "token": "palantir",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Palantir Technologies UK"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "domain": "spotify.com",
+      "listType": "feed",
+      "ats": "lever",
+      "token": "spotify",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Spotify"
+        ]
+      },
+      "note": "Stockholm also sponsors, but Sweden isn't one of the 9 countries."
+    },
+    {
+      "id": "plaid",
+      "name": "Plaid",
+      "domain": "plaid.com",
+      "listType": "feed",
+      "ats": "lever",
+      "token": "plaid",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Plaid"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "domain": "mistral.ai",
+      "listType": "feed",
+      "ats": "lever",
+      "token": "mistral",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Main hub is Paris (France isn't one of the 9 countries)."
+    },
+    {
+      "id": "airwallex",
+      "name": "Airwallex",
+      "domain": "airwallex.com",
+      "listType": "feed",
+      "ats": "lever",
+      "token": "airwallex",
+      "tokenVerified": false,
+      "sponsorship": {
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Platform uncertain (may be Ashby)."
+    },
+    {
+      "id": "wealthsimple",
+      "name": "Wealthsimple",
+      "domain": "wealthsimple.com",
+      "listType": "feed",
+      "ats": "lever",
+      "token": "wealthsimple",
+      "tokenVerified": false,
+      "sponsorship": {
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Platform uncertain (may be Ashby)."
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "domain": "openai.com",
+      "listType": "feed",
+      "ats": "ashby",
+      "token": "openai",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "OpenAI"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "domain": "cohere.com",
+      "listType": "feed",
+      "ats": "ashby",
+      "token": "cohere",
+      "tokenVerified": false,
+      "sponsorship": {
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Cohere"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "domain": "elevenlabs.io",
+      "listType": "feed",
+      "ats": "ashby",
+      "token": "elevenlabs",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Eleven Labs"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "domain": "synthesia.io",
+      "listType": "feed",
+      "ats": "ashby",
+      "token": "synthesia",
+      "tokenVerified": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {
+        "GB": [
+          "Synthesia"
+        ]
+      },
+      "note": ""
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "domain": "google.com",
+      "listType": "browse",
+      "careersUrl": "https://www.google.com/about/careers/applications/jobs/results/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "domain": "amazon.com",
+      "listType": "browse",
+      "careersUrl": "https://www.amazon.jobs/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "domain": "microsoft.com",
+      "listType": "browse",
+      "careersUrl": "https://jobs.careers.microsoft.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "domain": "apple.com",
+      "listType": "browse",
+      "careersUrl": "https://jobs.apple.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "domain": "meta.com",
+      "listType": "browse",
+      "careersUrl": "https://www.metacareers.com/jobs",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "domain": "salesforce.com",
+      "listType": "browse",
+      "careersUrl": "https://careers.salesforce.com/en/jobs/",
+      "urlChecked": false,
+      "sponsorship": {
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        },
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "bytedance",
+      "name": "ByteDance / TikTok",
+      "domain": "tiktok.com",
+      "listType": "browse",
+      "careersUrl": "https://lifeattiktok.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "domain": "bloomberg.com",
+      "listType": "browse",
+      "careersUrl": "https://www.bloomberg.com/company/careers/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "booking",
+      "name": "Booking.com",
+      "domain": "booking.com",
+      "listType": "browse",
+      "careersUrl": "https://jobs.booking.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "domain": "uber.com",
+      "listType": "browse",
+      "careersUrl": "https://www.uber.com/careers/",
+      "urlChecked": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "sap",
+      "name": "SAP",
+      "domain": "sap.com",
+      "listType": "browse",
+      "careersUrl": "https://jobs.sap.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "zalando",
+      "name": "Zalando",
+      "domain": "zalando.com",
+      "listType": "browse",
+      "careersUrl": "https://jobs.zalando.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "deliveryhero",
+      "name": "Delivery Hero",
+      "domain": "deliveryhero.com",
+      "listType": "browse",
+      "careersUrl": "https://careers.deliveryhero.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "domain": "atlassian.com",
+      "listType": "browse",
+      "careersUrl": "https://www.atlassian.com/company/careers/all-jobs",
+      "urlChecked": false,
+      "sponsorship": {
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "domain": "canva.com",
+      "listType": "browse",
+      "careersUrl": "https://www.lifeatcanva.com/en/jobs/",
+      "urlChecked": false,
+      "sponsorship": {
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "domain": "shopify.com",
+      "listType": "browse",
+      "careersUrl": "https://www.shopify.com/careers",
+      "urlChecked": false,
+      "sponsorship": {
+        "CA": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "grab",
+      "name": "Grab",
+      "domain": "grab.com",
+      "listType": "browse",
+      "careersUrl": "https://www.grab.careers/",
+      "urlChecked": false,
+      "sponsorship": {
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "sea",
+      "name": "Shopee / Sea",
+      "domain": "sea.com",
+      "listType": "browse",
+      "careersUrl": "https://careers.shopee.sg/",
+      "urlChecked": false,
+      "sponsorship": {
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "optiver",
+      "name": "Optiver",
+      "domain": "optiver.com",
+      "listType": "browse",
+      "careersUrl": "https://optiver.com/working-at-optiver/career-opportunities/",
+      "urlChecked": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "imc",
+      "name": "IMC Trading",
+      "domain": "imc.com",
+      "listType": "browse",
+      "careersUrl": "https://www.imc.com/eu/careers/jobs",
+      "urlChecked": false,
+      "sponsorship": {
+        "NL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "AU": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "allegro",
+      "name": "Allegro",
+      "domain": "allegro.pl",
+      "listType": "browse",
+      "careersUrl": "https://jobs.allegro.eu/",
+      "urlChecked": false,
+      "sponsorship": {
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "domain": "cisco.com",
+      "listType": "browse",
+      "careersUrl": "https://jobs.cisco.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "PL": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "domain": "nvidia.com",
+      "listType": "browse",
+      "careersUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+      "urlChecked": false,
+      "sponsorship": {
+        "DE": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "known"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "arm",
+      "name": "Arm",
+      "domain": "arm.com",
+      "listType": "browse",
+      "careersUrl": "https://careers.arm.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        },
+        "IE": {
+          "status": "sponsors",
+          "evidence": [
+            "offer"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "jpmorgan",
+      "name": "JPMorgan Chase",
+      "domain": "jpmorganchase.com",
+      "listType": "browse",
+      "careersUrl": "https://careers.jpmorgan.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "SG": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    },
+    {
+      "id": "snap",
+      "name": "Snap",
+      "domain": "snap.com",
+      "listType": "browse",
+      "careersUrl": "https://careers.snap.com/",
+      "urlChecked": false,
+      "sponsorship": {
+        "GB": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        },
+        "US": {
+          "status": "sponsors",
+          "evidence": [
+            "gist"
+          ],
+          "registerChecked": false
+        }
+      },
+      "registerAliases": {},
+      "note": "Own careers site: browse in the in-app browser only."
+    }
+  ]
+}
