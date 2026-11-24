@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "rulesVersion": "2026-11-23",
+  "rulesVersion": "2026-11-24",
   "_note": "Thresholds and fees change. The coding AI must re-check every number against the official page in 'source' before release.",
   "rightToWorkByNationality": {
     "_comment": "ISO 3166 alpha-2 nationality -> countries where that passport already allows work. Users can also declare a visa/PR they hold.",
@@ -80,7 +80,14 @@
         "currency": "GBP",
         "period": "year"
       },
-      "source": "https://www.gov.uk/skilled-worker-visa"
+      "source": "https://www.gov.uk/skilled-worker-visa",
+      "move": [
+        "Your employer must hold a UK sponsor licence. They give you a Certificate of Sponsorship for the job.",
+        "The job must be an eligible occupation and pay at least the visa salary bar, or the job's going rate if that is higher.",
+        "You apply online and give fingerprints at a visa centre in India. Decisions usually take about 3 weeks.",
+        "You pay the visa fee and the Immigration Health Surcharge, unless your employer covers them.",
+        "Your partner and children can come with you as dependants."
+      ]
     },
     "IE": {
       "route": "Critical Skills Employment Permit",
@@ -91,49 +98,94 @@
         "currency": "EUR",
         "period": "year"
       },
-      "source": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/"
+      "source": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/",
+      "move": [
+        "The job usually needs to be on Ireland's Critical Skills Occupations List, with an offer of at least 2 years.",
+        "Your employer or you apply for the permit online before you travel. Current processing times are published by the Department of Enterprise.",
+        "Once the permit is granted, you apply for an Irish entry visa in India.",
+        "Your spouse or partner can join you straight away and work.",
+        "After 2 years you can usually move to Stamp 4 and work for any employer."
+      ]
     },
     "DE": {
       "route": "EU Blue Card",
       "sponsorLicenceRequired": false,
       "register": null,
       "minSalary": null,
-      "source": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
+      "source": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card",
+      "move": [
+        "No sponsor licence is needed: any German employer can hire you if the salary meets the Blue Card threshold (lower for shortage jobs such as IT).",
+        "You need a degree recognised in Germany (check the anabin database). Experienced IT specialists can qualify without one.",
+        "You apply for a national visa at the German mission in India (through VFS), then get the Blue Card in Germany.",
+        "Your family can join you, and your spouse can work.",
+        "Permanent residence is possible after about 27 months, or sooner with German at B1 level."
+      ]
     },
     "NL": {
       "route": "Highly skilled migrant",
       "sponsorLicenceRequired": true,
       "register": "nl_ind_register",
       "minSalary": null,
-      "source": "https://ind.nl/en/public-register-recognised-sponsors"
+      "source": "https://ind.nl/en/public-register-recognised-sponsors",
+      "move": [
+        "Your employer must be a recognised sponsor with the IND. They apply for you.",
+        "The salary must meet the highly skilled migrant threshold for your age.",
+        "The IND usually decides within a few weeks. You then collect an entry visa (MVV) in India if you need one.",
+        "Your partner and children can come with you, and your partner can work.",
+        "You may qualify for the Dutch expat tax break (the 30% ruling)."
+      ]
     },
     "PL": {
       "route": "Work permit / EU Blue Card",
       "sponsorLicenceRequired": false,
       "register": null,
       "minSalary": null,
-      "source": "https://www.gov.pl/web/udsc-en"
+      "source": "https://www.gov.pl/web/udsc-en",
+      "move": [
+        "Your employer applies for a work permit for you, or you qualify for an EU Blue Card with a degree and a high enough salary.",
+        "With the permit, you apply for a national (D) work visa at the Polish consulate in India.",
+        "Permits can take a few months, so ask your employer to start early.",
+        "Your family can join you through family reunification once you are settled."
+      ]
     },
     "SG": {
       "route": "Employment Pass (COMPASS)",
       "sponsorLicenceRequired": false,
       "register": null,
       "minSalary": null,
-      "source": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+      "source": "https://www.mom.gov.sg/passes-and-permits/employment-pass",
+      "move": [
+        "Your employer applies for the Employment Pass online for you.",
+        "You need to pass the COMPASS points test and earn at least the qualifying salary, which rises with age.",
+        "Most applications are decided within a few weeks.",
+        "If you earn enough, your family can join you on Dependant's Passes."
+      ]
     },
     "CA": {
       "route": "Work permit (Global Talent Stream / LMIA)",
       "sponsorLicenceRequired": false,
       "register": null,
       "minSalary": null,
-      "source": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent.html"
+      "source": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent.html",
+      "move": [
+        "Most job offers need a Labour Market Impact Assessment (LMIA). Tech roles through the Global Talent Stream are usually processed in about 2 weeks.",
+        "You then apply for a work permit and give biometrics at a visa centre in India.",
+        "Express Entry can give permanent residence without a job offer, so it is worth checking your points.",
+        "Your spouse can often get an open work permit."
+      ]
     },
     "AU": {
       "route": "Skills in Demand visa (subclass 482)",
       "sponsorLicenceRequired": true,
       "register": null,
       "minSalary": null,
-      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-482"
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-482",
+      "move": [
+        "Your employer must be an approved sponsor and nominate you for the role.",
+        "The salary must meet the income threshold for the visa stream.",
+        "You usually need at least 1 year of relevant experience and an English test result.",
+        "Your family can be included, and there is a path to permanent residence with your employer."
+      ]
     },
     "US": {
       "route": "H-1B (annual lottery)",
@@ -142,7 +194,13 @@
       "minSalary": null,
       "defaultVisibleForVisaNeeders": false,
       "warning": "H-1B needs the March lottery and the $100,000 fee for applicants abroad is in court. Off by default; most people from India reach the US through an internal L-1 transfer.",
-      "source": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations"
+      "source": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+      "move": [
+        "H-1B: your employer registers you in the lottery each March. If you are selected, you can start work from 1 October.",
+        "A $100,000 fee for applicants abroad is being challenged in court, so check the latest before you plan around it.",
+        "Many people from India move instead through an internal L-1 transfer after a year with a US company's team in India.",
+        "An H-4 spouse can work only in some cases."
+      ]
     }
   },
   "jobTextRules": {
@@ -189,5 +247,18 @@
       "help with your visa",
       "immigration support"
     ]
+  },
+  "inrRates": {
+    "asOf": "2026-11-23",
+    "source": "European Central Bank reference rates",
+    "perUnit": {
+      "USD": 92.92,
+      "EUR": 101.64,
+      "GBP": 121.47,
+      "CAD": 64.7,
+      "AUD": 61.48,
+      "SGD": 71.96,
+      "PLN": 22.8
+    }
   }
 }

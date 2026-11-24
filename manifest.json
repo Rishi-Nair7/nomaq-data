@@ -1,9 +1,9 @@
 {
-  "dataVersion": 2,
+  "dataVersion": 3,
   "minAppVersionCode": 1,
   "published": "2026-11-24",
   "files": {
     "companies.json": "8427ccd084725000276411ebbb3a13063c2979d40b4fdb6e471274a1a2db27ab",
-    "visa_rules.json": "e2526efa9569aebfef36a9fb2b1513dc3a907c9e092a14303672bf0cd7207757"
+    "visa_rules.json": "c022ac7b4eed576d273db034d35da1beeca3b12e8b23bef36084f607d6cfc4f0"
   }
 }
